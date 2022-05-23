@@ -18,3 +18,8 @@ CMD (Windows)
 set FLASK_APP=run.py
 set FLASK_ENV=development
 flask run
+
+Для регистрации пользователя отправляется запрос вида
+{"email": "mich1@mail.ru", "password": "mi-mi-mi", "name": "mich1"}
+по маршруту
+http://localhost:5000/auth/register
